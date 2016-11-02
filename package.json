@@ -6,8 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DemneriEnio/header-parser-enio.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DemneriEnio/header-parser-enio/issues"
+  },
+  "homepage": "https://github.com/DemneriEnio/header-parser-enio#readme",
   "dependencies": {
     "express": "^4.14.0",
     "ip": "^1.1.4"
