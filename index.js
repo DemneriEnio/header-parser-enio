@@ -3,7 +3,7 @@ var ip = require('ip');
 
 var app = new express();
 
-app.get('/data', function(req, res){
+app.get('/', function(req, res){
 var software = req.headers['user-agent'].split('(')[1].split(')')[0];
 
 	console.log(req.headers);
