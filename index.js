@@ -8,11 +8,11 @@ var software = req.headers['user-agent'].split('(')[1].split(')')[0];
 
 	console.log(req.headers);
 		var data = {
-		ip_address: ip.address(),
-		language: req.acceptsLanguages()[0],
-		software: software
-	};
+			ip_address: ip.address(),
+			language: req.acceptsLanguages()[0],
+			software: software
+		};
 	res.json(data);
 });
 
-app.listen(8000);
+app.listen(process.env.PORT || 8000);
